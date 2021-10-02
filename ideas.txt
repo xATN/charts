@@ -1,0 +1,82 @@
+0. Introduction to the channel
+   * Teaser
+       - Tell me, have you heard about the restaurant on the Moon?
+       - No?
+       - The food is *mya* magnificent
+       - But there is no atmosphere
+
+       - *TAG*
+       - Hello, my name is Graham Ollis
+       - I am known as PLICEASE on the Internet
+       - And you are watching ATN
+   * ...
+   * Profit!
+
+1. Alien Basics
+   * Teaser
+       - Greetings
+       - I can see your dilema already
+       - You're sitting down tow write a Perl module
+       - And you have some external dependencies
+       - Maybe it's a C library
+       - It could be a rust crate
+       - Possibly some old Fortran library
+       - It could even be something new and shiney written in Go
+       - Either way you need this thing to install from CPAN for your users
+       - Without causing them any trouble
+       - You want the dependencies to just work
+       - What are you going to do?
+       - I'll tell you what you are going to do,
+       - You are going to use some Alien Technology Now
+       - *TAG*
+   * Define Alien
+   * Why Alien?
+   * Alien Flowchart
+   * Alien Dependency
+   * Demo: create Alien::libarchive
+       - sudo apt-get update && sudo apt-get install libffi-dev libarchive-dev
+       - cpanm -n Task::AlienDev
+       - dzil new -P AlienBuild Alien::libarchive
+       - cd Alien-libarchive
+       - dzil test
+       - env ALIEN_INSTALL_TYPE=share dzil test
+   * Conclusion
+       - Next time we will cover how you can use your
+       - Shiny new Alien.
+       - Now you are an expert on Perl's Alien Technology
+       - Tell me what Aliens are you going to write and contribute to CPAN
+       - Please let us know by commenting in the section below
+       - If you have any questions about Perl's Awesome Alien Technology
+       - Please join us on pound native channel on irc.perl.org
+       - If something goes wrong,
+       - Don't panic,
+       - Just open a ticket on our GitHub
+       - Until next time, I will see you later.
+
+2. FFI Basics
+   * Teaser
+   * Define FFI
+   * Why FFI
+   * Demo: create Libarchive.pm able to list content of an archive
+   * Conclusion
+
+3. Advanced FFI
+   * Teaser
+   * ???
+   * Code Review: generating bindings for libarchive
+   * Conclusion
+
+4. Advanced Alien
+   * Teaser
+   * ???
+   * History?
+   * Isolate Dynamic?
+   * Conclusion
+
+Future
+
+ - NewRelic bindings
+ - Nikon F6
+ - Turbo Pascal 7.0 unboxing
+ - Flightmare
+ - ...
